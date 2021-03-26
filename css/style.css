@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'MarcellusSC-Regular';
+    src: url('font-family/MarcellusSC-Regular.ttf')
+}
+
+html {
+    scroll-behavior: smooth;
+    --vi: #8a307f;
+    --blc: #79a7d3;
+    --blf: #6883bc;
+}
+
+header {
+    justify-content: space-between;
+    background-color: var(--blf);
+    flex-direction: row;
+}
+
+#img-header {
+    height: 400px;
+    width: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--vi);
+}
+
+body {
+    font-family: 'MarcellusSC-Regular';
+    margin: 0;
+    padding: 0;
+    background: 100%;
+    background-color: wheat;
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+nav>ul li {
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    background-color: var(--blc);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--blf);
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.presentation {
+    color: var(--blc);
+    width: 50vh;
+    text-align: center;
+    border: 20px;
+}
+
+h2 {
+    color: var(--vi);
+}
+
+a {
+    color: var(--vi);
+}
