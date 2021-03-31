@@ -11,9 +11,9 @@ html {
 }
 
 header {
-    justify-content: space-between;
-    background-color: var(--blf);
-    flex-direction: row;
+    background-color: var(--blc);
+    position: relative;
+    width: 100%;
 }
 
 #img-header {
@@ -29,9 +29,6 @@ h1 {
 
 body {
     font-family: 'MarcellusSC-Regular';
-    margin: 0;
-    padding: 0;
-    background: 100%;
     background-color: wheat;
 }
 
@@ -41,6 +38,7 @@ nav {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 nav>ul li {
@@ -48,33 +46,51 @@ nav>ul li {
     width: 110px;
     text-align: center;
     background-color: var(--blc);
+    border: solid 2px;
+    border-radius: 10px;
 }
 
 .logo {
     width: 100px;
     height: 100px;
     padding: 10px;
+    position: absolute;
+    top: 195px;
 }
 
-footer {
+footer>p {
     background-color: var(--blf);
-    margin-top: 40px;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 14px;
     color: black;
+    width: 100vw;
+    position: static;
 }
 
 .presentation {
-    color: var(--blc);
-    width: 50vh;
+    color: var(--blf);
+    width: 75%;
     text-align: center;
     border: 20px;
 }
 
 h2 {
     color: var(--vi);
+    text-decoration: underline overline
 }
 
 a {
     color: var(--vi);
+}
+
+#img-header {
+    width: 100%;
+    height: 200px;
+}
+
+.carrousel {
+    height: 370px;
+    width: 300px;
+    max-width: 50%;
 }
