@@ -16,11 +16,6 @@ header {
     width: 100%;
 }
 
-#img-header {
-    height: 400px;
-    width: 100vh;
-}
-
 h1 {
     text-align: center;
     font-size: 2rem;
@@ -54,7 +49,6 @@ nav>ul li {
     width: 100px;
     height: 100px;
     padding: 10px;
-    position: absolute;
     top: 195px;
 }
 
@@ -70,9 +64,8 @@ footer>p {
 
 .presentation {
     color: var(--blf);
-    width: 75%;
+    width: 100%;
     text-align: center;
-    border: 20px;
 }
 
 h2 {
@@ -84,13 +77,18 @@ a {
     color: var(--vi);
 }
 
-#img-header {
-    width: 100%;
-    height: 200px;
+.carrousel {
+    padding: 10px;
 }
 
-.carrousel {
-    height: 370px;
-    width: 300px;
-    max-width: 50%;
+p {
+    border: solid 5px var(--blc);
+    padding: 20px;
 }
+
+.d-block {
+    height: 300px;
+    width: 280px;
+}
+
+#carouselExampleIndicators {}
