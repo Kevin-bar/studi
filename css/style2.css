@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'MarcellusSC-Regular';
+    src: url('font-family/MarcellusSC-Regular.ttf')
+}
+
+html {
+    scroll-behavior: smooth;
+    --vi: #8a307f;
+    --blc: #79a7d3;
+    --blf: #6883bc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: 100%;
+    background-color: wheat;
+}
