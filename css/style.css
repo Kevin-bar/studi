@@ -12,8 +12,6 @@ html {
 
 header {
     background-color: var(--blc);
-    position: relative;
-    width: 100%;
 }
 
 h1 {
@@ -62,7 +60,7 @@ footer>p {
     position: static;
 }
 
-.presentation {
+main {
     color: var(--blf);
     width: 100%;
     text-align: center;
@@ -84,6 +82,8 @@ a {
 p {
     border: solid 5px var(--blc);
     padding: 20px;
+    font-size: 1.1rem;
+    color: var(--blf);
 }
 
 .d-block {
@@ -91,4 +91,9 @@ p {
     width: 280px;
 }
 
-#carouselExampleIndicators {}
+fieldset {
+    min-width: 0;
+    margin: 10px;
+    border: solid 4px;
+    color: var(--blc)
+}
