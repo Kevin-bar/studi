@@ -58,6 +58,7 @@ footer>p {
     color: black;
     width: 100vw;
     position: static;
+    padding: 0;
 }
 
 main {

@@ -61,3 +61,54 @@ section {
     height: 100vh;
     object-fit: cover;
 }
+
+h2 {
+    font-size: 6rem;
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+    font-weight: bold;
+    color: var(--vi);
+    text-shadow: 1px 2px 6px #eee;
+}
+
+footer>p {
+    background-color: var(--blf);
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    width: 100vw;
+    position: static;
+    padding: 0;
+}
+
+nav>ul li {
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    background-color: var(--blc);
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: var(--vi);
+    text-decoration: underline;
+}
+
+.card-text {
+    color: var(--blf);
+}
+
+.img-radius>img {
+    vertical-align: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.pagination {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
