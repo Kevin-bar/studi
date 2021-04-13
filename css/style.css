@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'MarcellusSC-Regular';
-    src: url('font-family/MarcellusSC-Regular.ttf')
+    font-family: 'Calligraffiti';
+    src: local('font-family/Calligraffiti.ttf')
 }
 
 html {
@@ -16,12 +16,33 @@ header {
 
 h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--vi);
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    display: inline;
+    transform: translate(-50%, -50%);
+    margin-top: 8px;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    margin: 0 auto;
+    background: var(--blf);
+    transition: width 0.2s ease-in-out;
+}
+
+h1:hover::after {
+    width: 100%;
 }
 
 body {
-    font-family: 'MarcellusSC-Regular';
+    font-family: 'Calligraffiti', 'MarcellusSC-Regular';
     background-color: wheat;
 }
 
@@ -96,4 +117,16 @@ fieldset {
     margin: 10px;
     border: solid 4px;
     color: var(--blc)
+}
+
+aside {
+    flex: 1.2;
+    position: relative;
+    background-color: var(--blc);
+    box-shadow: 0, 2px, 5px var(--blf);
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--blf);
+    font-size: 0.9rem;
+    vertical-align: top;
 }
